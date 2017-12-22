@@ -19,7 +19,7 @@ ActiveRecord::Schema.define(version: 20160114135651) do
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
     t.integer  "recipe_id"
-  end
+
 
   create_table "recipes", force: :cascade do |t|
     t.string   "title"
